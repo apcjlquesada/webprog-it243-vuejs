@@ -14,4 +14,4 @@
    }
   })
   
-  app.mount('#app2')
+  app2.mount('#app2')
