@@ -1,11 +1,15 @@
-<script setup></script>
-
 <template>
-  <h1>You did it! You hacked the system!<br> Congratulations WEBPROG IT243!</h1>
-  <p>
-    Visit <a href="https://vuejs.org/" target="_blank" rel="noopener">vuejs.org</a> to read the
-    documentation
-  </p>
+  <h1>{{ message }}</h1>
 </template>
 
-<style scoped></style>
+<script>
+export default {
+  data() {
+    return {
+      message: 'This is some text. This is cool!'
+    };
+  }
+};
+</script>
+
+<style></style>
